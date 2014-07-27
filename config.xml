@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns		= "http://www.w3.org/ns/widgets"
+	xmlns:gap	= "http://phonegap.com/ns/1.0"
+	id		= "org.konacloud.comerciosuy"
+	version 	= "1.0.0">
+
+	<name>Supermercados Montevideo</name>
+
+	<description>
+		Aplicacion para ubicar supermercados en montevideo. Datos abiertos
+	</description>
+
+	<author href="http://konacloud.io"
+		email="santiago@konacloud.io">
+		Santiago Cotto
+	</author>
+
+	<icon src="icon.png" gap:role="default" />
+
+	<feature name="http://api.phonegap.com/1.0/geolocation"/>
+	<feature name="http://api.phonegap.com/1.0/network"/>
+	<preference name="stay-in-webview" value="true" />
+
+</widget>
